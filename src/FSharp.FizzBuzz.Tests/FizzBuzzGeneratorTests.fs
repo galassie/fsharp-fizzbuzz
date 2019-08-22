@@ -6,9 +6,13 @@ open NUnit.Framework
 type FizzBuzzGeneratorTests () =
 
     [<Test>]
-    member this.TestOne () =
-        Assert.AreEqual(FizzBuzzGenerator.gen 1, 1)
+    member __.TestOneReturnOne () =
+        Assert.AreEqual("1", FizzBuzzGenerator.gen 1)
 
     [<Test>]
-    member this.TestTwo () =
-        Assert.AreEqual(FizzBuzzGenerator.gen 2, 2)
+    member __.TestTwoReturnTwo () =
+        Assert.AreEqual("2", FizzBuzzGenerator.gen 2)
+
+    [<Test>]
+    member __.TestThreeReturnFizz () =
+        Assert.AreEqual("Fizz", FizzBuzzGenerator.gen 3)
