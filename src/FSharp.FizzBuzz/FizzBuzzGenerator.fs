@@ -1,4 +1,4 @@
 namespace FSharp.FizzBuzz
 
 module FizzBuzzGenerator =
-    let gen x = 1
+    let gen x:int = x
