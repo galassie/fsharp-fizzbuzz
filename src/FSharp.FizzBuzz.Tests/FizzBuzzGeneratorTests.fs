@@ -16,3 +16,11 @@ type FizzBuzzGeneratorTests () =
     [<Test>]
     member __.TestThreeReturnFizz () =
         Assert.AreEqual("Fizz", FizzBuzzGenerator.gen 3)
+
+    [<Test>]
+    member __.TestFourReturnFour () =
+        Assert.AreEqual("4", FizzBuzzGenerator.gen 4)
+
+    [<Test>]
+    member __.TestFiveReturnBuzz () =
+        Assert.AreEqual("Buzz", FizzBuzzGenerator.gen 5)
