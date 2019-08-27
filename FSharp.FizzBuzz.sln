@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz", "FSharp.FizzBuzz\FSharp.FizzBuzz.fsproj", "{12172D57-9AB6-40A8-B776-309187AB7FBD}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz", "src\FSharp.FizzBuzz\FSharp.FizzBuzz.fsproj", "{12172D57-9AB6-40A8-B776-309187AB7FBD}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz.Tests", "FSharp.FizzBuzz.Tests\FSharp.FizzBuzz.Tests.fsproj", "{64CFA957-BA16-448D-B45A-5887BB8D64D5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz.Tests", "src\FSharp.FizzBuzz.Tests\FSharp.FizzBuzz.Tests.fsproj", "{64CFA957-BA16-448D-B45A-5887BB8D64D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
