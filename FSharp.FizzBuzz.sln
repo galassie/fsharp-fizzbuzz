@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz", "src\FSharp.FizzBuzz\FSharp.FizzBuzz.fsproj", "{12172D57-9AB6-40A8-B776-309187AB7FBD}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.FizzBuzz", "src\FSharp.FizzBuzz\FSharp.FizzBuzz.fsproj", "{12172D57-9AB6-40A8-B776-309187AB7FBD}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz.Tests", "src\FSharp.FizzBuzz.Tests\FSharp.FizzBuzz.Tests.fsproj", "{64CFA957-BA16-448D-B45A-5887BB8D64D5}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.FizzBuzz.Tests", "src\FSharp.FizzBuzz.Tests\FSharp.FizzBuzz.Tests.fsproj", "{64CFA957-BA16-448D-B45A-5887BB8D64D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3942D44C-9BCD-42E3-A100-0A4EAB131AE9}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.FizzBuzz.Console", "src\FSharp.FizzBuzz.Console\FSharp.FizzBuzz.Console.fsproj", "{46E14641-5692-4338-B31E-BE89B2761579}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.FizzBuzz.Console", "src\FSharp.FizzBuzz.Console\FSharp.FizzBuzz.Console.fsproj", "{46E14641-5692-4338-B31E-BE89B2761579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{12172D57-9AB6-40A8-B776-309187AB7FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -61,7 +58,15 @@ Global
 		{46E14641-5692-4338-B31E-BE89B2761579}.Release|x86.ActiveCfg = Release|Any CPU
 		{46E14641-5692-4338-B31E-BE89B2761579}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{12172D57-9AB6-40A8-B776-309187AB7FBD} = {3942D44C-9BCD-42E3-A100-0A4EAB131AE9}
+		{64CFA957-BA16-448D-B45A-5887BB8D64D5} = {3942D44C-9BCD-42E3-A100-0A4EAB131AE9}
 		{46E14641-5692-4338-B31E-BE89B2761579} = {3942D44C-9BCD-42E3-A100-0A4EAB131AE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD55E197-AF1B-4B16-AB45-D28456F2986F}
 	EndGlobalSection
 EndGlobal
