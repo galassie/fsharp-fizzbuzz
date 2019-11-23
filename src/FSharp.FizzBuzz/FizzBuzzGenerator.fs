@@ -13,7 +13,8 @@ module FizzBuzzGenerator =
 
     let genSimplified x =
         let arrayStrings = [| (if x % 3 = 0 then "Fizz" else ""); (if x % 5 = 0 then "Buzz" else "") |]
-        let arrayReduced = Array.reduce (fun acc item -> acc + item) arrayStrings
+        let reduction acc item = acc + item
+        let arrayReduced = Array.reduce reduction arrayStrings
         match arrayReduced with
         | "" -> sprintf "%d" x
         | __ -> __
